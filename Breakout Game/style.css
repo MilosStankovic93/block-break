@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(56, 56, 58);
+}
+.grid{
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+   
+    
+}
+
+.block{
+    width: 80px;
+    height: 20px;
+    background: blue;
+    position: absolute;
+}
+.user{
+    width: 80px;
+    height: 20px;
+    background: rgb(1, 1, 22);
+    position: absolute;
+}
+
+.ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: red;
+    position: absolute;
+}
+#score{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    margin: 0 auto;
+    color: gold;
+    
+    
+    
+}
